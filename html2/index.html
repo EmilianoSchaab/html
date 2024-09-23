@@ -1,46 +1,95 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MI PRIMERA PAGINA WEB</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CAFETERIA EMILIANO</title>
 </head>
+<body bgcolor="#706cf6" style="color:#e59866;">
+        <H1 align="center" >CAFETERIA EMILIANO</H1>
+        <hr color="black">
+       <div align="center">
+        <h2>Nuestro menu</h2>
+        <ul style="list-style: none;">
+                <li>Cafe</li>
+                <li>Cafe con leche</li>
+                <li>Latte</li>
+                <li>Capuchino</li>
+                <li>Expreso</li>
+        </ul>
 
-<body>
-    <h1>Estamos en la primera clase de HTML</h1>
-    <Hr>
-    <H2>Este es un ejemplo utilizando las primeras etiquetas</H2>
-    <Hr>
-    <P>La etiqueta <Em>EM</Em> es utilizada para para enfatizar texto, lo que
-        generalmente se traduce en cursiva.</P>
-    <P>La etiqueta <strong>STRONG</strong>se utiliza para indicar importancia, generalmente se
-        muestra en negrita. lorem
-    </P>
-
-    <P>
-        En este parrafo mostramos un ejemplo de estiqueta <Br>BR<br>
-        Ahora mostraremos un ejemplo de HR
-        <Hr>
-    </P>
-
-    <blockquote>-blockquote (Bloque de cita): Se utiliza para citar bloques de texto de
-        otras fuentes.</blockquote>
-    <p>
-        <q> (Cita en línea): Para citas cortas que se mantienen dentro del flujo del
-            texto..
-        </q>
-    </p>
-    <p>
-        <code> Indica que el texto es un fragmento de código de
-                programación
-        </code>
-    </p>
-    <pre>
-        Muestra texto con espacios fijos y saltos de
-                línea, utilizado a menudo para código.
-    </pre>
+        <hr color="black">
 
 
+        <table align="center" title="ofertas"> <CAption><strong>Ofertas</strong></CAption>
+                <tr>
+                        <th>Menu</th>
+                        <th>Precio</th>
+                </tr>
+             <tbody>
+                        <tr>
+                                <td>Cafe</td>
+                                <td>$2.00</td>
+                        </tr>
+                        <tr>
+                                <td>Cafe con leche</td>
+                                <td>$3.00</td>
+                        </tr>
+                        <tr>
+                                <td>Latte</td>
+                                <td>$3.50</td>
+                        </tr>
+                        <tr>
+                                <td>Capuchino</td>
+                                <td>$4.00</td>
+                        </tr>
+             </tbody>
+             <br>
+             <tfoot>
+                        <tr>
+                                <td colspan="2"><strong>10% off pagando en efectivo</strong></td>
+                        </tr>
+
+             </tfoot>
+             <br>
+
+        </table>
+        
+        <br>
+        <hr color="black">
+        <br>
+        <h3><strong>Registrate para obtener nuestras ofertas</strong></h3>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido">
+        <br>
+        <br>
+        <label for="telefono">Telefono</label>
+        <input type="text" id="telefono" name="telefono">
+        <br>
+        <br>
+        <label for="direccion">Direccion</label>
+        <input type="text" id="direccion" name="direccion">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+        <br>
+        <form action="/action_page.php" method="post">
+                <label for="comentario">Comentarios:</label><br>
+                <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+        </form>
+        <br><br>
+</div>
 </body>
-
 </html>
